@@ -1,0 +1,229 @@
+/********************************** HTML ***********************************/
+
+html {
+  font-family: "Montserrat", "sans-serif", ubuntu;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  font-family: "Montserrat"
+}
+
+/********************************** Title **********************************/
+
+#navbarSupportedContent {
+  padding-right: 5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-left: 5rem;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/********************************** Front Page******************************/
+
+
+#top-container {
+  padding-bottom: 3rem;
+  margin: 3rem;
+  z-index: 0;
+}
+
+@media (max-width: 991px) {
+  #top-container h1 {
+    text-align: center;
+  }
+  .button-container {
+    text-align: center;
+  }
+}
+
+#top-container button {
+  margin: 2rem 1rem 2rem 0;
+}
+
+.apple-pic {
+  z-index: 0;
+  position: absolute;
+  transform: rotate(20deg);
+  right: 5rem;
+  top: 10rem;
+}
+
+@media (max-width: 991px) {
+  .apple-pic {
+    text-align: center;
+    position: relative;
+    transform: rotate(0);
+    right: 0;
+    top: 0;
+  }
+}
+
+/********************************** Features********************************/
+
+#features {
+  margin: 4rem 5rem 4rem 5rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features p {
+  color: #8f8f8f;
+  padding: 0;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+}
+
+.icon {
+  transform: scale(3);
+  padding-bottom: 1.2rem;
+  padding-top: 1.25rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/********************************** Testimonials****************************/
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+  z-index: 1
+}
+
+#testimonials h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials p {
+  font-family: "Montserrat";
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/********************************** Press***********************************/
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/**********************************Pricing**********************************/
+
+#invisible {
+  color: white;
+}
+
+.pricing-title h2 {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card-header h3 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-weight: bold;
+}
+
+.pricing-title p {
+  padding-top: 0;
+  padding-bottom: 2rem;
+  color: #8f8f8f;
+}
+
+.card-title {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.card-text {
+  padding: 0;
+  margin: .1;
+  color: #8f8f8f;
+}
+
+.card-body {
+  height: 19rem;
+}
+
+.card {
+  margin-bottom: 5rem;
+}
+
+/**********************************Call To Action****************************/
+
+#cta {
+  background-color: #ff4c68;
+  padding: 2rem 0;
+  color: white;
+}
+
+#cta button {
+  margin: 1rem 0 0 2rem
+}
+
+/**********************************Footer****************************/
+
+#footer {
+  margin: 1rem 0;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+#footer button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  transform: scale(85%);
+  color: #8f8f8f;
+  margin-bottom: .5rem;
+}
